@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+:root {
+	--primary-text-color: #212121;
+	--accent-color: #2196f3;
+	--secondary-color: #757575;
+	--primary-white-color: #ffffff;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: var(--primary-white-color);
+	color: var(--primary-text-color);
+}
+ul {
+	list-style: none;
+}
+.logo {
+	font-family: 'Raleway', sans-serif;
+	color: #000;
+}
+.logo:hover,
+:focus {
+	color: var(--accent-color);
+}
+.logo-web {
+	color: var(--accent-color);
+}
+/* Navigation */
+.site-nav .link {
+	color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: var(--accent-color);
+}
+.contacts .link {
+	color: var(--secondary-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+	color: var(--accent-color);
+}
+.features .text {
+	color: var(--secondary-color);
+}
+/* Section*/
+/* .section-title {
+	color: #212121;
+} */
+/* Team */
+.team .profession {
+	color: var(--secondary-color);
+}
+.button {
+	color: var(--primary-text-color);
+	background-color: var(--primary-white-color);
+}
+.button.primary {
+	color: var(--primary-white-color);
+	background-color: var(--accent-color);
+	border-color: transparent;
+}
+.button.secondary {
+	color: var(--accent-color);
+	background-color: var(--primary-white-color);
+}
+
+/* Акцент #2196F3;
+ */
+/* Текст параграфо #757575; 
+ */
+/* Основний текст   #212121;
+*/
+/* Підвал #2F303A;
+  білий  #FFFFFF;
+ чорний #000000;
+ */

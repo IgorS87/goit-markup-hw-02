@@ -1,76 +1,176 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
 :root {
-	--primary-text-color: #212121;
-	--accent-color: #2196f3;
-	--secondary-color: #757575;
-	--primary-white-color: #ffffff;
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-color: #757575;
+  --primary-white-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
 }
 body {
-	font-family: 'Roboto', sans-serif;
-	background-color: var(--primary-white-color);
-	color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
 }
 ul {
-	list-style: none;
+  list-style: none;
 }
+a {
+  text-decoration: none;
+}
+/* Header logo */
 .logo {
-	font-family: 'Raleway', sans-serif;
-	color: #000;
+  font-family: Raleway, sans-serif;
+  color: #000;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .logo:hover,
 :focus {
-	color: var(--accent-color);
+  color: var(--accent-color);
 }
 .logo-web {
-	color: var(--accent-color);
+  color: var(--accent-color);
+}
+/* Footer logo */
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  color: var(--primary-white-color);
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-footer:hover,
+:focus {
+  color: var(--accent-color);
 }
 /* Navigation */
 .site-nav .link {
-	color: #212121;
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-	color: var(--accent-color);
+  color: var(--accent-color);
 }
 .contacts .link {
-	color: var(--secondary-color);
+  color: var(--secondary-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contacts .link:hover,
 .contacts .link:focus {
-	color: var(--accent-color);
-}
-.features .text {
-	color: var(--secondary-color);
-}
-/* Section*/
-/* .section-title {
-	color: #212121;
-} */
-/* Team */
-.team .profession {
-	color: var(--secondary-color);
-}
-.button {
-	color: var(--primary-text-color);
-	background-color: var(--primary-white-color);
-}
-.button.primary {
-	color: var(--primary-white-color);
-	background-color: var(--accent-color);
-	border-color: transparent;
-}
-.button.secondary {
-	color: var(--accent-color);
-	background-color: var(--primary-white-color);
+  color: var(--accent-color);
 }
 
+/* Section*/
+.hero {
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+.button {
+  font-family: Roboto;
+  color: var(--primary-text-color);
+  background-color: var(--secondary-background-color);
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+}
+.button.primary:hover,
+.button.primary:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.section {
+  text-align: center;
+}
+/* features */
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+}
+.text-features {
+  color: var(--secondary-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+.profession {
+  color: var(--secondary-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.18;
+}
+.specialist {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Portfolio */
+.product {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
+/* Footer */
+.mailo-tel {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+
+  font-size: 14px;
+  line-height: 1.71;
+}
 /* Акцент #2196F3;
  */
-/* Текст параграфо #757575; 
+/* Текст параграф #757575; 
  */
 /* Основний текст   #212121;
 */
 /* Підвал #2F303A;
   білий  #FFFFFF;
  чорний #000000;
+ background button: #F5F4FA;
+
  */

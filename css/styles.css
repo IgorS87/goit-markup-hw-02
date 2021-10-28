@@ -50,29 +50,32 @@ a {
 /* Navigation */
 .site-nav .link {
   color: var(--primary-text-color);
+}
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
 .contacts .link {
   color: var(--secondary-color);
+}
 
+.site-nav .link,
+.contacts .link,
+.backlight {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
+.site-nav .link:hover,
+.site-nav .link:focus,
 .contacts .link:hover,
 .contacts .link:focus {
   color: var(--accent-color);
 }
 
+/* Backlight */
+.backlight {
+  color: var(--accent-color);
+}
 /* Section*/
 .hero-section {
   background: var(--br-fone);
@@ -84,7 +87,7 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  font-weight: 700;
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
 }
@@ -99,6 +102,16 @@ a {
   font-size: 16px;
   line-height: 1.88;
 }
+/* .button > .primary {
+  font-family: Roboto;
+  color: var(--accent-color);
+  background-color: var(--secondary-background-color);
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+} */
 .button.primary:hover,
 .button.primary:focus {
   color: var(--primary-white-color);
@@ -110,7 +123,16 @@ a {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+.backlight-button {
+  font-family: Roboto;
+  background-color: var(--accent-color);
+  color: var(--secondary-background-color);
+  cursor: pointer;
 
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+}
 /* features */
 .title {
   font-weight: 700;
@@ -168,7 +190,14 @@ a {
 .mailo-tel {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
-
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.coordinates {
+  color: var(--primary-white-color);
+  font-family: Roboto;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
